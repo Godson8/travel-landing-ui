@@ -9,6 +9,8 @@ const videoIcon = document.getElementById('video-icon');
 const scrollUp = document.querySelector('.scrollup');
 const sections = document.querySelectorAll('section[id]')
 
+
+//navbar toggle onCLick
 navToggle.addEventListener('click', function(){
     navMenu.classList.add('show-menu')
 })
@@ -32,6 +34,8 @@ window.addEventListener('scroll', function(){
     }
 })
 
+
+//swiper function from swiperjs
 var swiper = new Swiper(".discover__container", {
     effect: "coverflow",
     grabCursor: true,
